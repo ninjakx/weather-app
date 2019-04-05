@@ -30,6 +30,7 @@ export class WeatherComponent implements OnInit {
   public min_temp = new Array();
   public max_temp = new Array();
   public avg_temp = new Array();
+  public humidity = new Array();
   public photo: any;
   chart = [];
 
@@ -82,7 +83,9 @@ export class WeatherComponent implements OnInit {
       this.history_data.push(this.weatherDataHistory);
       this.min_temp.push(this.weatherDataHistory.forecast.forecastday[0].day.mintemp_c);
       this.max_temp.push(this.weatherDataHistory.forecast.forecastday[0].day.maxtemp_c);
+      this.humidity.push(this.weatherDataHistory.forecast.forecastday[0].day.avghumidity);
       this.avg_temp.push(this.weatherDataHistory.forecast.forecastday[0].day.avgtemp_c);
+
 
       this.dataSource = {
         "chart": {
@@ -161,6 +164,51 @@ export class WeatherComponent implements OnInit {
             "value": this.avg_temp[5]
           }, {
             "value": this.avg_temp[6]
+          }]
+        }]
+      };
+
+      this.dataSource2 = {
+        "chart": {
+          "caption": "Past 7 Days Observed Humidity",
+          "xAxisname": "Dates",
+          "yAxisName": "Humidity",
+          "theme": "fusion"
+        },
+        "categories": [{
+          "category": [{
+            "label": this.newdates[0]
+          }, {
+            "label": this.newdates[1]
+          }, {
+            "label": this.newdates[2]
+          }, {
+            "label": this.newdates[3]
+          }, {
+            "label": this.newdates[4]
+          }, {
+            "label": this.newdates[5]
+          }, {
+            "label": this.newdates[6]
+          }]
+        }],
+        "dataset": [{
+          "seriesName": "Humidity",
+          "renderAs": "line",
+          "data": [{
+            "value": this.humidity[0]
+          }, {
+            "value": this.humidity[1]
+          }, {
+            "value": this.humidity[2]
+          }, {
+            "value": this.humidity[3]
+          }, {
+            "value": this.humidity[4]
+          }, {
+            "value": this.humidity[5]
+          }, {
+            "value": this.humidity[6]
           }]
         }]
       };
