@@ -1,7 +1,7 @@
 # WeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 4.3.0.
-In this, Fusion Chart is used for plotting the graph and apixu api used to retrieve the data.
+In this, Fusion Chart is used for plotting the graph and Apixu api is used to retrieve the data.
 
 ## Development server
 
@@ -34,3 +34,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## How to Deploy angular app to github.io
 
 Run `ng build --prod --base-href https://ninjakx.github.io/weather-app/` and then Run `ngh --dir dist/weather-app`
+
+Thanks to the @nnamdiekweekwe for the code :)
