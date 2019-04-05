@@ -1,0 +1,71 @@
+.selector {
+       background-image: url("/app/assets/1705368-leaf-wallpaper.jpg");
+   }
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+#tb {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tb td, #tb th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  height: 59px;
+}
+
+#tb tr:nth-child(even){background-color: #f2f2f2;}
+#tb tr:nth-child(odd){background-color: white;}
+
+#tb tr:hover {background-color: #ddd;}
+
+#tb th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.grid{
+    float: left;
+    margin-left: 5px;
+    margin-right:5px;
+    min-height:200px;
+    border:1px solid white;
+}
+.gridl{
+    float: right;
+    margin-left: 3px;
+    min-height:400px;
+    border:1px solid white;
+}
+
+.box {
+    float:left;
+    text-align: center;
+    display: inline-blockl;
+    margin-left: 8%;
+    padding: 5px;
+    background: #BBE3A8;
+    font-size: 15px;
+    float: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor:pointer;
+}
