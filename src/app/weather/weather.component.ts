@@ -35,6 +35,7 @@ export class WeatherComponent implements OnInit {
   chart = [];
 
   dataSource: Object;
+  dataSource2: Object;
   chartConfig: Object;
   constructor(
     private formBuilder: FormBuilder,
