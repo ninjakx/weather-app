@@ -38,4 +38,4 @@ Run `ng build --prod --base-href https://ninjakx.github.io/weather-app/` and the
 Thanks to the @nnamdiekweekwe for the code :)
 
 
-Note: They have updated the api so it won't work any longer. Will update and create a new branch when I will get time to do so.
+## Note: They have updated the api so it won't work any longer. Will update and create a new branch when I will get time to do so.
