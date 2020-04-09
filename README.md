@@ -39,4 +39,4 @@ Thanks to the @nnamdiekweekwe for the code :)
 
 
 ## Note: 
-### They have updated the api so it won't work any longer. Will update and create a new branch when I will get time to do so.
+*They have updated the api so it won't work any longer. Earlier historical for few days and forecast data were free using this api. But now you have to suscribe for that plan. No longer free now.* 
