@@ -36,3 +36,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Run `ng build --prod --base-href https://ninjakx.github.io/weather-app/` and then Run `ngh --dir dist/weather-app`
 
 Thanks to the @nnamdiekweekwe for the code :)
+
+
+Note: They have updated the api so it won't work any longer. Will update and create a new branch when I will get time to do so.
