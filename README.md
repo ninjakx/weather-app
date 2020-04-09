@@ -38,5 +38,5 @@ Run `ng build --prod --base-href https://ninjakx.github.io/weather-app/` and the
 Thanks to the @nnamdiekweekwe for the code :)
 
 
-## Note: 
-*They have updated the api so it won't work any longer. Earlier historical for few days and forecast data were free using this api. But now you have to suscribe for that plan. No longer free now.* 
+## Note:
+*They have updated the api so it won't work any longer. Earlier historical data for few days and forecast data were free using this api. But now you have to suscribe for that plan. No longer free now.* 
