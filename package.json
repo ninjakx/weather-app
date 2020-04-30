@@ -27,7 +27,7 @@
     "fusioncharts": "^3.13.4",
     "highcharts": "^7.0.3",
     "highcharts-angular": "^2.4.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "ng2-highcharts": "^1.2.0",
     "popper.js": "^1.14.6",
     "rxjs": "~6.3.3",
